@@ -1,0 +1,17 @@
+
+h5{
+    font-weight: 900;
+    font-size: 20px;
+ 
+}
+.textfooter{
+    color: #f1f1f1 ;
+    font-weight: 500;
+    font-size: 15px;
+
+}
+.textfooter:hover{
+    color: #33cc66;
+    font-weight: 600;
+    font-size: 15px;
+}

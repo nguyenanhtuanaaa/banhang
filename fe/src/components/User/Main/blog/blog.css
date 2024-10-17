@@ -1,0 +1,97 @@
+h2{
+    font-family: "Quicksand", sans-serif;
+    color: #333333;
+    font-size: 4.2857142857rem;
+    margin-bottom: 2.4285714286rem;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.link{
+    text-decoration: none;
+    font-size: 20px;
+    color: #83bb3e;
+    font-weight: 400;
+    font-family: "Quicksand", sans-serif;
+}
+.card-text{
+    font-size: 17px;
+    font-weight: 400;
+}
+.link:hover{
+    color:#FFDEAD;
+}
+.card-title{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Quicksand", sans-serif;
+}
+.fluid{
+    height: 90% !important;
+  margin: 0 auto ;
+  border-radius: 20px;
+ /* margin-top: 10px; */
+ padding: 20px;
+}
+.blog-container {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    gap: 20px;
+  }
+  
+  .col-3 {
+    flex: 1 1 30%;
+    margin-bottom: 20px;
+
+  }
+  
+  .col-7 {
+    flex: 1 1 65%;
+  }
+  
+  @media (max-width: 768px) {
+   
+  
+    .col-3, .col-7 {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  
+    .col-7 {
+      order: 1; /* Move this section below col-3 on small screens */
+    }
+  
+  
+  }
+  .h3{
+    background-color: #00923f;
+    border-radius: 16px;
+    color: #fff !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.8px;
+    line-height: 16.8px !important;
+    padding: 10px 13px;
+    text-transform: uppercase;
+    font-size: 16.56px !important;
+    
+  }
+  .blogtitel {
+    color: #20242e;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16.56px;
+    font-weight: 700;
+    line-height: 21.528px;
+    margin: 1.656px 0px;
+    text-align: left;
+}
+.blogcontent {
+  color: #090909;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14.4px !important;
+  line-height: 23.04px;
+  margin: 1.44px 0px;
+  text-align: left;
+}

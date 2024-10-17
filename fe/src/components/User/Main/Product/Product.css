@@ -1,0 +1,62 @@
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.list-group-item.active {
+    background-color: #3c6 !important;
+    border-color: #3c6 !important;
+    color: aliceblue !important;
+    font-size: 20px;
+    
+  }
+  .list-group-item{
+    border-color:#ebebeb;
+    border-style:solid;
+    border-width: 0.8px;
+    color:#83bb3e !important;
+    line-height:25.6px;
+    padding:15px;
+    
+  }
+  .h3{
+    background-color: #00923f;
+    border-radius: 16px;
+    color: #fff !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.8px;
+    line-height: 16.8px !important;
+    padding: 10px 13px;
+    text-transform: uppercase;
+    font-size: 1em !important;
+    
+  }
+  .formsle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    border-color:#ddd !important;
+    color: #333 !important;
+    font-size:15.52px;
+      line-height:24.832px;
+      margin:5px 0px;
+      padding:0px 21.728px 0px 11.64px;
+
+  }
+ 
+
+  .formslect {
+    align-items: center;
+    background-color: #fff;
+    background-size: auto 16px;
+    border-color: #ddd !important;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0.8px;
+    color: #777;
+    font-size: 15.52px;
+   
+}
+
+

@@ -1,0 +1,67 @@
+.search-container {
+    position: relative;
+    display: inline-block;
+    margin-right: 50px;
+  }
+  
+  .search-icon {
+    color: #3c6;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .search-input {
+    position: absolute;
+    top: 60px;
+    left: 70px;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 50px;
+    border: 1px solid rgb(51, 204, 102);
+    padding: 5px;
+    opacity: 0;
+    transition: width 0.5s ease, opacity 0.5s ease;
+    z-index: 10; /* Đảm bảo input nằm trên các phần khác */
+  }
+  
+  .search-container:hover .search-input {
+    width: 200px; 
+    opacity: 1;
+  }
+  
+  /* CSS cho gợi ý */
+  .suggestions {
+    position: absolute; /* Thay đổi sang absolute */
+    top: 85px; /* Đặt dưới input */
+    left: -5; /* Căn lề bên trái */
+    background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;;
+    padding: 10px;
+    z-index: 20; /* Đảm bảo gợi ý nằm trên các phần khác */
+    width: 300px;
+    /* max-height: 300px; Giới hạn chiều cao */
+    overflow-y: auto; /* Thêm cuộn khi quá nhiều gợi ý */
+  }
+  
+  .suggestions-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+  }
+  
+  .suggestions-list li {
+    display: flex;
+    align-items: center; /* Căn giữa hình ảnh và văn bản */
+    padding: 5px;
+    /* cursor: pointer; */
+    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px; */
+    text-decoration: none;
+  }
+  .suggestions-list li a{
+    text-decoration: none;
+  }
+  
+  .suggestions-list li:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Thay đổi màu nền khi hover */
+  }
+  

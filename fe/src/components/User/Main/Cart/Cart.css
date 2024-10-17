@@ -1,0 +1,62 @@
+.thcol{
+    font-size: 20px;
+    font-weight: 500;
+    color: #777;
+}
+.thcoll{
+    font-size: 14.4px;
+    color: #777 !important;
+    font-weight: 700;
+    line-height: 15.12px;
+    text-transform: uppercase;
+}
+.tdcol{
+    font-size: 20px;
+    font-weight: 500;
+  
+}
+.tdcoll{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 40px 20px 20px 20px !important;
+    color:#fe9705 !important;
+}
+.namecoll{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 40px 20px 20px 20px !important;
+   
+}
+.tdcolll{
+    font-size: 20px;
+    font-weight: 600;
+    color:#fe9705 !important;
+    text-align: end;
+}
+
+
+.counter-container {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    
+  }
+  
+  .counter-button, .counter-input {
+    height: 100%;
+    border: 1px solid black;
+  }
+  
+  .counter-button {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .counter-input {
+    width: 50px;
+    text-align: center;
+    margin: 0 5px;
+  }
+  

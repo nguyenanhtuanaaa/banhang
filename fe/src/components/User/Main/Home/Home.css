@@ -1,0 +1,167 @@
+.carousel{
+    margin: 0 auto;
+    width: 95%;
+    /* border: 1px solid red; */
+    display: flex   ;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.banner{
+    margin: 0 auto;
+    width: 90%;
+    height: 600px;
+    border: 1px solid red;
+    display: flex   ;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.cardtitle{
+    color: #83bb3e;
+    font-size: 35px;
+    text-decoration: none;
+    width: 200px;
+    display:inline-block;
+    white-space: nowrap;       /* Không cho phép xuống dòng */
+  overflow: hidden;          /* Ẩn phần vượt quá kích thước */
+  text-overflow: ellipsis; 
+}
+.carddel{
+    color: #fe9705;
+    font-size: 18px;
+}
+.card:hover {
+    transform: scale(1.03); 
+}
+.cardd{
+    width:15rem;
+}
+.bannericon {
+    width: 280px; /* Kích thước mặc định cho màn hình lớn */
+}
+.carddimg{
+    height: 247px;
+    width: 247px;
+
+}
+.card {
+    width: 17rem; /* Kích thước mặc định cho các thẻ bài viết */
+    border: 0.1px solid #ebebeb !important;
+    border-radius: 15px;
+    box-shadow: none !important;   
+    background-color: transparent; 
+}
+.cardimg {
+    width: 247px; /* Kích thước mặc định cho các thẻ bài viết */
+    height: 190px; /* Kích thước mặc định cho các thẻ bài viết */
+   
+}
+.carousel1{
+    width: 60%;
+    height: 600px;
+
+}
+.carousel2{
+    width: 30%;
+    height: 600px;
+
+}
+
+/* Màn hình nhỏ hơn 768px */
+@media (max-width: 768px) {
+    .carousel1{
+        width: 100%;
+        height: 300px;
+    }
+    .carousel2{
+        width: 720px;
+        height: 300px;
+        margin-top: 300px;
+        margin-bottom: 250px;
+    }
+    .bannericon {
+        width: 35%; /* Mỗi banner sẽ chiếm 45% chiều rộng */
+    }
+    .cardd{
+        width:35%;
+    }
+    .card {
+        width: 45%; /* Mỗi thẻ bài viết sẽ chiếm 45% chiều rộng */
+    }
+}
+
+/* Màn hình nhỏ hơn 600px */
+@media (max-width: 600px) {
+    .carousel1{
+        width: 100%;
+        height: 300px;
+    }
+    .carousel2{
+        width: 720px;
+        height: 300px;
+        margin-top: 300px;
+        margin-bottom: 250px;
+    }
+    .bannericon {
+        width: 40%; /* Mỗi banner sẽ chiếm 50% chiều rộng */
+    }
+    .cardd{
+        width:46%;
+        margin: 0;
+    }
+    .cardd{
+        width:47%;
+        margin: 0;
+    }
+  
+    .card {
+        width: 46%; /* Mỗi thẻ bài viết sẽ chiếm 48% chiều rộng */
+    }
+    .cardtitle{
+        font-size: 20px;
+    }
+    .carddimg{
+        height: 180px;
+        width: 100px;
+    }
+    .cardimg{
+        height: 180px;
+        width: 100px;
+    }
+    .cardimg{
+        height: 180px;
+        width: 100px;
+    }
+    .cardtitle{
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+   
+}
+
+/* Màn hình nhỏ hơn 430px */
+@media (max-width: 430px) {
+    .carousel1{
+        width: 100%;
+        height: 300px;
+    }
+    .carousel2{
+        width: 100%;
+        height: 300px;
+    }
+    .bannericon {
+        width: 100%; /* Mỗi banner sẽ chiếm 100% chiều rộng */
+    }
+    .cardd {
+        width: 100%; /* Mỗi thẻ sản phẩm sẽ chiếm 100% chiều rộng */
+        margin-bottom: 20px; /* Thêm khoảng cách dưới mỗi thẻ sản phẩm */
+    }
+    .card {
+        width: 100%; /* Mỗi thẻ bài viết sẽ chiếm 100% chiều rộng */
+        margin-bottom: 20px; /* Thêm khoảng cách dưới mỗi thẻ bài viết */
+    }
+}

@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.text{
+    font-size: 16.5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.text:hover {
+    color: #111111d9 !important;
+}
+.text.active {
+    color: #111111d9;
+}
+
+
+.textbutton{
+    border: 1px #33cc66  solid;
+color: #3c6;
+border-radius: 999px;
+/* border-color: #3c6; */
+height: 45px;
+margin-right: 15px;
+font-weight: 600;
+min-width: 94px;  
+
+   color: #3c6;
+   border-radius: 8px;
+   /* border-color: #3c6; */
+     height: 45px;
+     /* margin-right: 15px; */
+     font-weight: 600;
+     /* background-color: #3c6; */
+}
+.nav-car{
+    color: #3c6;
+    font-size: 30px;
+    cursor: pointer;
+}
+.iconbutton{
+    color: #3c6;
+    border-color: #3c6;
+    height: 45px;
+    margin-right: 15px;
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
+}
+
+/* .textbutton:hover{
+    background-color: #33cc66 ;
+    color: white;
+} */
+
+.iconbutton:hover .nav__user-btn-icon{
+    color: #33cc66 ;
+}
+.nav__user{
+    display: none;
+}
+.nav__user-btn-icon{
+    color: #3c6;
+    font-size: 30px;
+}
+
+@media screen and (min-width: 990px) and (max-width: 1400px) {
+    .textbutton {
+      height: 45px; 
+      width: 50px;
+      font-size: 15px;
+    }
+    .textlogin{
+        font-size: 15px;
+    }
+    .container{
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    ul li{
+      color: red;
+      width: 105px;
+      
+    }
+    .text{
+      font-size: 18px;
+      margin: 0 auto;
+    }
+    .d-flex{
+      width: 50%;
+    }
+   .buttonlogin{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 145px;
+   }
+   .navbar-brand{
+    width: 120px;
+   }
+   .d-inline-block{
+    width: 120px;
+   }
+  
+ 
+ }
+
+ .dropdown-item{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .search-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .search-icon {
+    color: #3c6;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  .search-input {
+    position: absolute;
+    top: 60px;
+    left: 70px;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 50px;
+    border: 1px solid  rgb(51, 204, 102);
+    padding: 5px;
+    opacity: 0;
+    transition: width 0.5s ease, opacity 0.5s ease;
+   
+  }
+  
+  .search-container:hover .search-input {
+    width: 200px; 
+    opacity: 1;
+  }
+  
